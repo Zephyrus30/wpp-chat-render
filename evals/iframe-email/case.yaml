@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: iframe-email
+expected_outcome: |
+  HTML standalone com a conversa em balões E o tag <iframe> pronto para usar.
+  O iframe deve ter width="100%", height em pixels calculado ou sugerido,
+  frameborder="0" e style sem borda. O HTML deve ter <base target="_blank">.
+  Operadora Maria Clara à direita, cliente PATRICIA SOUZA OLIVEIRA à esquerda.
+  "Atendimento Finalizado" deve ser mensagem de sistema centralizada.

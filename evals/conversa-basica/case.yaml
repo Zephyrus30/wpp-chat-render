@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: conversa-basica
+expected_outcome: |
+  HTML com balões: mensagens de sistema centralizadas em cinza/itálico, operadores João Silva
+  e Ana Paula Costa à direita em verde, cliente LUCAS MENDES FERREIRA à esquerda em branco/cinza.
+  A transferência de atendimento deve aparecer como mensagem de sistema, não como fala de operador.
+  O HTML deve ser autocontido e funcionar standalone no browser.

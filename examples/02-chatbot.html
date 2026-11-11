@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Conversa - Chatbot</title>
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #ECE5DD;
+  margin: 0; padding: 16px;
+  max-width: 680px; margin-inline: auto;
+}
+.wpp-chat {
+  display: flex; flex-direction: column; gap: 7px;
+}
+.wpp-msg {
+  max-width: 82%; padding: 7px 11px;
+  border-radius: 12px;
+  display: flex; flex-direction: column; gap: 2px;
+  word-break: break-word;
+  box-shadow: 0 1px 2px rgba(0,0,0,.13);
+}
+.wpp-msg.cliente {
+  align-self: flex-start;
+  background: #FFFFFF;
+  border-bottom-left-radius: 2px;
+}
+.wpp-msg.operador {
+  align-self: flex-end;
+  background: #D9FDD3;
+  border-bottom-right-radius: 2px;
+}
+.wpp-nome {
+  font-size: 11px; font-weight: 700;
+  color: #667085; letter-spacing: .01em;
+}
+.wpp-msg.operador .wpp-nome { color: #2E6B15; }
+.wpp-msg.operador.chatbot .wpp-nome { color: #0891B2; }
+.wpp-texto {
+  font-size: 13px; line-height: 1.5; color: #111827; white-space: pre-line;
+}
+.wpp-msg.sistema {
+  align-self: center;
+  background: rgba(0,0,0,0.09);
+  border-radius: 8px;
+  max-width: 92%;
+  text-align: center;
+  padding: 5px 12px;
+}
+.wpp-msg.sistema .wpp-texto {
+  font-size: 11.5px; color: #555; font-style: italic;
+}
+</style>
+</head>
+<body>
+<div class="wpp-chat">
+  <div class="wpp-msg sistema">
+    <span class="wpp-texto">"Ocorrência aberta pelo Chatbot em 14/10/2026 12:29:34
+O contato foi feito pelo Chat - Whatsapp pelo número: 556182589818
+Transcrição</span>
+  </div>
+  <div class="wpp-msg operador chatbot">
+    <span class="wpp-nome">CHATBOT</span>
+    <span class="wpp-texto">Olá, seja bem-vindo(a) ao canal de atendimento da <b>Base Incorporações!</b></span>
+  </div>
+  <div class="wpp-msg cliente">
+    <span class="wpp-nome">CLIENTE</span>
+    <span class="wpp-texto">Falar com o SAC</span>
+  </div>
+  <div class="wpp-msg operador chatbot">
+    <span class="wpp-nome">CHATBOT</span>
+    <span class="wpp-texto">Para qual área deseja atendimento?</span>
+  </div>
+  <div class="wpp-msg cliente">
+    <span class="wpp-nome">CLIENTE</span>
+    <span class="wpp-texto">Assistência Técnica</span>
+  </div>
+  <div class="wpp-msg sistema">
+    <span class="wpp-texto">Transferência de bate-papo iniciada. Você será atendido em breve.</span>
+  </div>
+  <div class="wpp-msg operador">
+    <span class="wpp-nome">Carla Nunes</span>
+    <span class="wpp-texto">Oi! Sou a Carla da Assistência Técnica. Pode me contar o que está acontecendo?</span>
+  </div>
+  <div class="wpp-msg cliente">
+    <span class="wpp-nome">RENAN VARGAS GUIMARAES</span>
+    <span class="wpp-texto">Tenho uma infiltração no banheiro da unidade 1A do bloco B.</span>
+  </div>
+  <div class="wpp-msg operador">
+    <span class="wpp-nome">Carla Nunes</span>
+    <span class="wpp-texto">Entendido, vou abrir uma OS para a equipe técnica visitar o apartamento.</span>
+  </div>
+  <div class="wpp-msg sistema">
+    <span class="wpp-texto">Atendimento Finalizado</span>
+  </div>
+</div>
+</body>
+</html>

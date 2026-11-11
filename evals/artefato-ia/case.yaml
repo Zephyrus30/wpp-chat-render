@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: artefato-ia
+expected_outcome: |
+  HTML com balões onde todos os artefatos "IA" foram corretamente removidos:
+  - "GUIMARAESIA" deve aparecer como "GUIMARAES"
+  - "MaranhaoIA" deve aparecer como "Maranhao"
+  - "1IA" deve aparecer como "1A" (número de unidade)
+  - "acabamentoIA" deve aparecer como "acabamento"
+  - "aguardareiIA" deve aparecer como "aguarderei"
+  - "A outra parte saiu..." e "Solicitação alterada..." devem ser mensagens de sistema
+  - O nome completo deve ser "RENAN VARGAS GUIMARAES" em todas as bolhas do cliente
