@@ -5,9 +5,12 @@ WhatsApp (copiado e colado de um chat de suporte, exportação do WhatsApp, ou l
 uma interface visual com balões **exatamente como no WhatsApp**: operadores à direita em verde,
 clientes à esquerda em cinza/branco, mensagens de sistema centralizadas em itálico.
 
-| Atendimento humano | Chatbot |
+| Notificação por e-mail (OC gerada automaticamente) | WPP Playground (pré-visualização em tempo real) |
 |---|---|
-| ![Exemplo de atendimento humano](docs/exemplo-atendimento-humano.png) | ![Exemplo de chatbot](docs/exemplo-chatbot.png) |
+| ![Exemplo de notificação por e-mail com a transcrição bruta](docs/exemplo-atendimento-humano.png) | ![Exemplo do Playground com texto bruto à esquerda e balões renderizados à direita](docs/exemplo-chatbot.png) |
+
+*Nomes, telefone, protocolo e link nas imagens acima são fictícios — recriados a partir de um
+caso real para preservar a privacidade do cliente.*
 
 ## O que ela faz
 
